@@ -1,0 +1,16 @@
+constructor fxns have the first letter capitalised as convention.
+it contains the object along with its attributes.
+example:
+function Ballboy (name,age,languages){
+    this.name = name;
+    this.age = age;
+    this.languages = languages //array
+    this.clean = function () {
+        alert("cleaning in progress...");
+        alert("cleaning done!");
+    }
+    //function inside the constructor Ballboy
+    //to call it just type {Ballboy object}.clean()
+}
+
+    
